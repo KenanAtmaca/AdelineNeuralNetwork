@@ -62,15 +62,15 @@ class Adeline {
         
     }
     
-    func test(output:Int) {
+    func test(output:Int) -> Bool {
         
         net(input: input_2)
         error(boutput: output)
         
         if E == 0 {
-            print("Doğru")
+            return true
         } else {
-            print("Yanlış")
+            return false
         }
         
     }

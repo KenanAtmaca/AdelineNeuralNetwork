@@ -24,6 +24,7 @@ print("\n")
 
 var dataSet:[vector] = [neural.input_1,neural.input_1,neural.input_2,neural.input_1,neural.input_2,neural.input_1,neural.input_1]
 
-neural.cluster(dataSet: dataSet, output: 1)
+neural.cluster(dataSet: dataSet, output: 1) // 2,4
 
+var test = neural.test(output: 1) // true
 
