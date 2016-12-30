@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8AF8D50E1E166D9D008FD79D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8D50D1E166D9D008FD79D /* main.swift */; };
+		8AF8D5151E166DB4008FD79D /* vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8D5141E166DB4008FD79D /* vector.swift */; };
+		8AF8D5171E166DC1008FD79D /* Adeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8D5161E166DC1008FD79D /* Adeline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		8AF8D50A1E166D9D008FD79D /* AdelineNeuralNetwork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdelineNeuralNetwork; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF8D50D1E166D9D008FD79D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8AF8D5141E166DB4008FD79D /* vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = vector.swift; path = ../vector.swift; sourceTree = "<group>"; };
+		8AF8D5161E166DC1008FD79D /* Adeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Adeline.swift; path = ../Adeline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				8AF8D50D1E166D9D008FD79D /* main.swift */,
+				8AF8D5161E166DC1008FD79D /* Adeline.swift */,
+				8AF8D5141E166DB4008FD79D /* vector.swift */,
 			);
 			path = AdelineNeuralNetwork;
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF8D5151E166DB4008FD79D /* vector.swift in Sources */,
 				8AF8D50E1E166D9D008FD79D /* main.swift in Sources */,
+				8AF8D5171E166DC1008FD79D /* Adeline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
